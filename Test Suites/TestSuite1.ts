@@ -4,8 +4,8 @@
    <name>TestSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-23T10:50:35</lastRun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2018-08-23T10:56:50</lastRun>
+   <mailRecipient>marc.vilardell.caellas.st@everis.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
