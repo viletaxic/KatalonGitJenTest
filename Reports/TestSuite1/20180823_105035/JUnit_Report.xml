@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="1" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="1" timestamp="2018-08-23 10:50:37" hostname="BCN-9BC71G2$ - BCN-9BC71G2.usersad.everis.int" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180823_105035"/>
+         <property name="logFiles" value="C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180823_105035\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BCN-9BC71G2$ - BCN-9BC71G2.usersad.everis.int"/>
+         <property name="hostAddress" value="192.168.0.159"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Test1" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2018-08-23 10:50:38 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2018-08-23 10:50:38 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-23 10:50:37 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
