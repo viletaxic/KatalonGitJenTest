@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="207" tests="0" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="0" failures="1" errors="0" time="207" timestamp="2018-09-03 13:09:39" hostname="BCN-9BC71G2$ - BCN-9BC71G2.usersad.everis.int" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180903_130937"/>
+         <property name="logFiles" value="C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180903_130937\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180903_130937\\1535973185778.png"/>
+         <property name="hostName" value="BCN-9BC71G2$ - BCN-9BC71G2.usersad.everis.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.116.124.158"/>
+         <property name="sessionId" value="946961398e66bf54d6a5ba94a04b0d2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" classname="Test Cases/Test1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)"/>
+         <system-out><![CDATA[2018-09-03 13:09:40 - [TEST_CASE][FAILED] - Test Cases/Test1: Test Cases/Test1 FAILED because (of) Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)
+
+2018-09-03 13:09:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-03 13:09:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-03 13:09:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-09-03 13:12:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-09-03 13:12:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)
+
+2018-09-03 13:13:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)
+[[ATTACHMENT|C:\\Users\\mvilarde\\git\\KatalonTest\\Reports\\TestSuite1\\20180903_130937\\1535973185778.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-03 13:09:40 - [TEST_CASE][FAILED] - Test Cases/Test1: Test Cases/Test1 FAILED because (of) Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-03 13:09:39 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Test1 FAILED because (of) Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-09-03 13:09:39 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Test1 FAILED because (of) Unable to click on object 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment' located by 'By.xpath: //a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
