@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Test1/Page_CURA Healthcare Service/a_Make Appointment'))

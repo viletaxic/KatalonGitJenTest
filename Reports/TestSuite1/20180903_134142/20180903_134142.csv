@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2018-09-03 13:41:45,2018-09-03 13:41:47,"1,938s",FAILED
+,,,,,,
+Test Cases/Test1,,,2018-09-03 13:41:46,2018-09-03 13:41:47,"1,189s",FAILED
+navigateToUrl,,,2018-09-03 13:41:46,2018-09-03 13:41:47,"0,702s",FAILED
